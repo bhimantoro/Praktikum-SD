@@ -8,7 +8,7 @@ Por2Eng = {'ir':'go','comer':'eat','loja':'store',\
              'casa':'home','mesquita':'mosque'}
 
 def line_break():
-    print '\n'*5
+    print '\n' * 5
 
 def input():
     x=str(raw_input('Masukkan kata: '))
@@ -19,7 +19,7 @@ def English2Portugis():
     print Eng2Por.get(x)
 
 def Portugis2English():
-    x=str(raw_input('Masukkan kata: '))
+    y=str(raw_input('Masukkan kata: '))
     y in Por2Eng
     print Por2Eng.get(y)
 
