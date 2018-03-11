@@ -81,4 +81,4 @@ def menu():
           print 'Salah Menu Babanq'
           break
 
-menu()
+menu() '''tampil menu'''
