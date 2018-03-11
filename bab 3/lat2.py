@@ -1,11 +1,11 @@
 Eng2Por = {'go':'ir', 'eat':'comer', 'store':'loja', \
-             'thank you':'obrigado', 'university':'universidade', \
-             'drink':'beber', 'shirt':'camisa', 'shoe':'sapato',\
-             'home':'casa','mosque':'mesquita'}
+           'thank you':'obrigado', 'university':'universidade', \
+           'drink':'beber', 'shirt':'camisa', 'shoe':'sapato',\
+           'home':'casa','mosque':'mesquita'}
 Por2Eng = {'ir':'go','comer':'eat','loja':'store',\
-             'obrigado':'thank you','universidade':'university',\
-             'beber':'drink','camisa':'shirt','sapato':'shoe',\
-             'casa':'home','mesquita':'mosque'}
+           'obrigado':'thank you','universidade':'university',\
+           'beber':'drink','camisa':'shirt','sapato':'shoe',\
+           'casa':'home','mesquita':'mosque'}
 
 def line_break():
     print '\n' * 5
