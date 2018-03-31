@@ -26,6 +26,28 @@
           <option value="E302" />
           <option value="E101" />
           <option value="E251" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="E305" />
+          <option value="W29" />
+          <option value="E501" />
+          <option value="E261" />
         </list>
       </option>
     </inspection_tool>
@@ -33,6 +55,13 @@
       <option name="ignoredErrors">
         <list>
           <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="next" />
         </list>
       </option>
     </inspection_tool>
