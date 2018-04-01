@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4513767-bfd3-4fa7-a92b-88e4cc5b80c5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bab 5/5.4.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bab 5/5.5.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bab 5/lat3_circular.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bab 5/lat3_double.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bab 5/sk1.py" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bab 4/BAB 4 (Stack &amp; Queue).pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bab 5/lat3_circular.py" afterPath="$PROJECT_DIR$/bab 5/lat3_circular.py" />
+      <change beforePath="$PROJECT_DIR$/bab 5/sk1.py" afterPath="$PROJECT_DIR$/bab 5/sk1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,22 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lat3_double.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bab 5/lat3_double.py">
+      <file leaf-file-name="sk1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bab 5/sk1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lat3_circular.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bab 5/lat3_circular.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1106">
-              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="271">
+              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,15 +71,15 @@
         <option value="$PROJECT_DIR$/aljabar linier/project.py" />
         <option value="$PROJECT_DIR$/bab 5/lat3.py" />
         <option value="$PROJECT_DIR$/bab 5/5.5.py" />
-        <option value="$PROJECT_DIR$/bab 5/sk1.py" />
         <option value="$PROJECT_DIR$/bab 5/lat3_circular.py" />
         <option value="$PROJECT_DIR$/bab 5/lat3_double.py" />
+        <option value="$PROJECT_DIR$/bab 5/sk1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="298" />
-    <option name="y" value="1" />
+    <option name="x" value="632" />
+    <option name="y" value="23" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -113,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,12 +118,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lat3_circular">
+  <component name="RunManager" selected="Python.sk1">
     <configuration name="5.5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,9 +236,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lat3_circular" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lat3_double" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sk1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sk1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lat3_circular" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lat3_double" />
         <item index="3" class="java.lang.String" itemvalue="Python.project" />
         <item index="4" class="java.lang.String" itemvalue="Python.5.5" />
       </list>
@@ -263,10 +251,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="298" y="1" width="697" height="775" extended-state="1" />
+    <frame x="632" y="23" width="697" height="775" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19423369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19423369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -318,6 +306,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bab 5/lat3_double.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bab 5/lat3_circular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bab 5/lat3_double.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
@@ -618,33 +622,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bab 5/5.5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bab 5/sk1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="60" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bab 5/lat3_double.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="812">
+          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bab 5/5.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="84" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bab 5/lat3_circular.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1106">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="14">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bab 5/sk1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
