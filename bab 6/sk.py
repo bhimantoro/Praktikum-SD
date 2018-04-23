@@ -132,7 +132,6 @@ class Tree(object):
 if __name__ == '__main__':
 	t = Tree()
 	while True:
-		os.system('pause')
 		print 'TTTTTTT  RRRRR   EEEEE  EEEEE\n' \
 		      '   T     R    R  E      E\n' \
 		      '   T     RRRRR   EEEEE  EEEEE\n' \
