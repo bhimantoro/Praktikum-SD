@@ -1,9 +1,12 @@
 import string
-alfabet = string.ascii_letters
+import os
+
+alfabet = string.printable
+# string printable mencakup letters, punctuations, digits dan whitespace
+# dengan total 100 karakter, yang digunakan sebagai modulus
 
 def enkrip(pesan):
     global alfabet
-
     cipher = ''
     for i in pesan:
         if i in alfabet:
@@ -21,38 +24,49 @@ def dekrip(cipher):
     for i in cipher:
         if i in alfabet:
             k = alfabet.find(i)
-            k = (k - 3)%26
+            k = (k - 3)%100
             pesan = pesan+alfabet[k]
         else:
             pesan = pesan + i
 
     return pesan
 
-encrypt = {}
-decrypt = {}
+encrypt = {} #init dictionary enkripsi
+decrypt = {} #init dictionary dekripsi
+
+def pause():
+	os.system('pause')
 
 while True:
-    print('----------------------------\n'
-          'Kamus Caesar Cipher\n'
-          '----------------------------')
-    pilihan = int(raw_input('1. Enkripsi\n'
-                            '2. Dekripsi\n'
-                            '3. Kamus Enkripsi\n'
-                            '4. Kamus Dekripsi\n'
-                            '----------------------------\n'
-                            'Pilih mode\t: '))
-    if pilihan == 1:
-        pesan = raw_input('Masukkan pesan\t: ')
-        print(enkrip(pesan))
-        encrypt[enkrip(pesan)]=pesan
-    elif pilihan == 2:
-        cipher= raw_input('Masukkan pesan\t: ')
-        print(dekrip(cipher))
-        decrypt[dekrip(cipher)]=cipher
-    elif pilihan == 3:
-	    print encrypt
-    elif pilihan == 4:
-	    print decrypt
-    else:
-        print('Pilihan Salah!')
-        break
+	try:
+	    print('-----------------------------\n'
+	          '|     Copyright (c) 2018    |\n'
+	          '|   Austin Fascal Iskandar  |\n'
+	          '|  Bhimantoro Suryo Admodjo |\n'
+	          '|     Kamus CaesarCipher    |\n'
+	          '-----------------------------')
+	    pilihan = int(raw_input('1. Enkripsi\n'
+	                            '2. Dekripsi\n'
+	                            '3. Tampil Kamus\n'
+	                            '----------------------------\n'
+	                            'Pilih Menu\t: '))
+	    if pilihan == 1:
+	        pesan = raw_input('Masukkan pesan\t: ')
+	        print(enkrip(pesan))
+	        pause()
+	        encrypt[pesan]=enkrip(pesan)
+	    elif pilihan == 2:
+	        cipher= raw_input('Masukkan pesan\t: ')
+	        print(dekrip(cipher))
+	        decrypt[cipher]=dekrip(cipher)
+	        pause()
+	    elif pilihan == 3:
+		    print 'Kamus Enkripsi\n', \
+		          encrypt, \
+		          '\nKamus Dekripsi\n', \
+		          decrypt
+		    pause()
+	    else:
+	        break
+	except ValueError:
+		print 'Oops! Pilihan salah. Coba lagi...'
